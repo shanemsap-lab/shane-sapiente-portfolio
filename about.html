@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Shane Sapiente</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Shane Sapiente</a>
+      <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="reflections.html">Reflections</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>About Me</h1>
+      <p>My journey from Apple to Yale—and the leadership lessons along the way</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <section style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;">
+        <div style="flex: 0 0 250px;">
+          <img src="assets/headshot.png" alt="Shane Sapiente" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          <p style="text-align: center; margin-top: 1rem;">
+            <a href="https://www.linkedin.com/in/shane-sapiente/" target="_blank" class="btn">Connect on LinkedIn</a>
+          </p>
+        </div>
+        <div style="flex: 1; min-width: 300px;">
+          <h2>Professional Background</h2>
+          <p>I bring a decade of experience from Apple, where I developed my understanding of organizational dynamics, customer service excellence, and the critical importance of employee voice in shaping workplace culture.</p>
+
+        <p>Throughout my time at Apple, I consistently applied feedback, pursued growth opportunities, and developed my leadership capabilities. However, I also experienced firsthand how organizational culture can either empower or suppress employee voice—a dynamic that would later become central to my capstone research.</p>
+
+        <p>I've since transitioned to Yale, where I continue to apply and grow my leadership capabilities in an environment that better aligns with my values. This pivot was guided by my inner voice—a recognition that sustainable leadership requires alignment between personal values and organizational culture.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Educational Journey</h2>
+        <div class="card">
+          <h3>Bachelor of Arts in Organizational Leadership</h3>
+          <p><strong>University of Massachusetts Global</strong></p>
+          <p>Expected Graduation: 2026</p>
+          <p>The BAOL program has provided me with a comprehensive foundation in leadership theory, ethics, diversity, and research methodology. Through rigorous coursework, I've developed the competencies needed to lead effectively in today's complex organizational environments.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Leadership Philosophy</h2>
+        <blockquote>
+          "A leader's inner voice, shaped by personal values and reflective experience, is essential to transformational leadership. When organizational leadership fails to align with these values, it can suppress employee voice and drive away high-performing individuals."
+        </blockquote>
+
+        <p>My approach to leadership centers on:</p>
+        <ul>
+          <li><strong>Authenticity:</strong> Leading from my values, even when it's difficult</li>
+          <li><strong>Empathy:</strong> Understanding others' perspectives before acting</li>
+          <li><strong>Inclusion:</strong> Ensuring every voice has the opportunity to be heard</li>
+          <li><strong>Growth:</strong> Continuously learning and adapting</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>The Apple to Yale Story</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Apple (2010s)</h3>
+            <p>Built a foundation in customer service, technical support, and team collaboration. Learned the importance of organizational culture—and what happens when leadership fails to amplify employee voices.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>BAOL Program (2020s)</h3>
+            <p>Developed theoretical frameworks to understand my experiences. Connected servant leadership, transformational leadership, and ethical decision-making to real-world practice.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Yale (Present)</h3>
+            <p>Found an environment aligned with my values. Applying leadership principles in a setting that honors diverse voices and supports continuous growth.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Capstone (2026)</h3>
+            <p>Synthesizing my journey into research on inner voice and transformational leadership—proving that sustainable leadership requires values alignment.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shane Sapiente | <a href="https://www.linkedin.com/in/shane-sapiente/" target="_blank">LinkedIn</a> | University of Massachusetts Global</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
